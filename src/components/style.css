@@ -1,0 +1,39 @@
+.carousel-indicators li{
+	width: 20px!important;
+    border-radius: 50%!important;
+    height: 17px!important;
+    background-color: #0099ff!important;
+}
+
+
+@media screen and (max-width: 991px){
+	#menuList{
+		display: flex;
+		color: "#0099ff";
+		padding: 20px;
+        justify-content:flex-end;
+		background-color: #0099ff;
+	}
+
+	#closeMenu{
+		display: none;
+		color: '#0099ff'
+	}
+}
+@media screen and (min-width: 992px){
+#closeMenu{
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+}
+#menuList{
+	display:none;
+}
+}
+#menuListt{
+	display: none;
+	color: #fff;
+	position: absolute;
+	top: 0%;
+	right: 0%;
+}
